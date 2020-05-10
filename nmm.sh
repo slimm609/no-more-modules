@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+# no more modules - syncs submodules into the repo rather than linking them.
 #
+
 set -Eeuo pipefail
 
 # get the root of the directory

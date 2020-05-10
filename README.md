@@ -9,7 +9,6 @@ git submodules have several problems that can make them difficult to maintain an
 * Forking becomes very difficult when using submodules, you need to update submodule associations and also make sure they have proper access to each module.
 * Including submodules that have their own submodules can run into issues when trying to clone and sync.
 
-
 ## Installation
 
 Copy `nmm.sh` and `nmm.conf` to the repo,  if you want to copy it to a location other than the root of the repository, you must update the config path in `nmm.sh`.
@@ -32,7 +31,6 @@ nmm.sh --syncall
 ```
 nmm.sh --sync=modulename
 ```
-
 
 
 ### Examples
